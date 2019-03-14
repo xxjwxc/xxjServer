@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6522551b-bd1f-4129-89ea-bfaf22557bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools">
+      <UniqueIdentifier>{74c23194-0e96-496a-8ad1-06c72cd4f667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json">
+      <UniqueIdentifier>{289c5548-bb21-4af1-857b-92e481ff29c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json\include">
+      <UniqueIdentifier>{1d30bd76-7532-46d1-9ffd-e9f9180255a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json\src">
+      <UniqueIdentifier>{76355d42-f71c-4e3e-a50b-d715ceffc669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Queue">
+      <UniqueIdentifier>{d96d8d31-50b7-43ff-83d4-1160f02ed64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Rand">
+      <UniqueIdentifier>{44904158-98aa-4807-8290-adce72f5d0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\SingnalTrivial">
+      <UniqueIdentifier>{5625c08f-0e09-4b67-a965-63cd9afac3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\TimerDeal">
+      <UniqueIdentifier>{85511236-54c3-44d6-a987-7ead82deaec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Asio">
+      <UniqueIdentifier>{a92f090b-61df-4581-a059-1e20b95546d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\IP">
+      <UniqueIdentifier>{9e4f5b9e-4509-42b3-9e46-5cf776a9dcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Libcurl">
+      <UniqueIdentifier>{1cbe41a2-330d-41e4-bb58-351a8f092ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Libcurl\curl">
+      <UniqueIdentifier>{02bbd56a-8b29-455d-b143-818265766ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MySql">
+      <UniqueIdentifier>{64b59186-626f-4dd6-ad25-87f2f4096e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyIni">
+      <UniqueIdentifier>{3bfc1582-5897-4d67-9dc2-16b1cdb61c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Sqlite3">
+      <UniqueIdentifier>{0537ad33-506f-4f07-99c5-06dcfa474dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Sqlite3\src">
+      <UniqueIdentifier>{f707d928-a1dd-4a19-9095-f549a4ac4101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyStream">
+      <UniqueIdentifier>{ecaae287-69ef-4d29-a099-d696f2c9c4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Md5">
+      <UniqueIdentifier>{0a638003-5a62-4284-9fd7-a99e160dd27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful">
+      <UniqueIdentifier>{d60d75b4-8082-40a8-929e-8ea98a6033ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served">
+      <UniqueIdentifier>{47bbf65b-2b37-4e30-99c5-a42572902aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served\mux">
+      <UniqueIdentifier>{de400832-8f7d-4baa-8c85-b86fb72d274a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served\net">
+      <UniqueIdentifier>{fc601c74-e190-4c06-8f98-7786fa47f439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served\plugins">
+      <UniqueIdentifier>{0de02df7-1758-4fff-a42e-92c9aaae247a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Service">
+      <UniqueIdentifier>{aa9a8749-b38a-4a57-932b-12e2e5072305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\AES">
+      <UniqueIdentifier>{5c49fbba-1fc6-4fcf-b84c-b116c88a695b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Leveldb">
+      <UniqueIdentifier>{cf6e55a0-9664-4dfc-803f-33317103c2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Base64">
+      <UniqueIdentifier>{ca06c6c5-84e1-491e-8db1-9ce3c508369e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Public_linux\src\Tools\MyTimes.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\MyTools.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\OnLogDeal.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Json\src\json_reader.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Json\src\json_value.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Json\src\json_writer.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Rand\MyRand.cpp">
+      <Filter>src\Tools\Rand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\TimerDeal\TimerDeal.cpp">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Asio\ClientSession.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Asio\IAsioTools.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Asio\ServerConnection.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\IP\IP17MON.cpp">
+      <Filter>src\Tools\IP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\MySql\MySqlBase.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\MySql\MySqlConnection.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\MySql\MySqlPool.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\MyIni\MyIniBase.cpp">
+      <Filter>src\Tools\MyIni</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Libcurl\MyHttpTools.cpp">
+      <Filter>src\Tools\Libcurl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\TimerDeal\TimeOut.cpp">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Sqlite3\MySqlite3.cpp">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Sqlite3\src\sqlite3.c">
+      <Filter>src\Tools\Sqlite3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Sqlite3\SqliteBase.cpp">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\MyStream\MyStreamBase.cpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Md5\MyMd5.cpp">
+      <Filter>src\Tools\Md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\methods_handler.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\multiplexer.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\parameters.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\request.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\request_parser.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\request_parser_impl.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\response.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\status.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\uri.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\mux\regex_matcher.cpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\mux\static_matcher.cpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\mux\variable_matcher.cpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\net\connection.cpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\net\connection_manager.cpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\net\server.cpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\restful\served\plugins\access_log.cpp">
+      <Filter>src\Tools\Restful\served\plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Service\service.cpp">
+      <Filter>src\Tools\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\AES\AES.cpp">
+      <Filter>src\Tools\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\AES\MyAes.cpp">
+      <Filter>src\Tools\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\base64\base64.cpp">
+      <Filter>src\Tools\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Public_linux\src\Tools\Leveldb\MyLeveldb.cpp">
+      <Filter>src\Tools\Leveldb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public_linux\src\Tools\ConsoleHandler.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\DefineBase.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MyDump.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MySingleton.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MyTimes.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MyTools.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\OnLogDeal.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\PointBase.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\MyJson.h">
+      <Filter>src\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\autolink.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\config.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\features.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\forwards.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\json.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\reader.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\value.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\include\writer.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Json\src\json_batchallocator.h">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Queue\MyQueue.h">
+      <Filter>src\Tools\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Queue\MyQueue.hpp">
+      <Filter>src\Tools\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Rand\MyRand.h">
+      <Filter>src\Tools\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\SingnalTrivial\SignalSlotTrivial.h">
+      <Filter>src\Tools\SingnalTrivial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\TimerDeal\TimerDeal.h">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Asio\ClientSession.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Asio\DefineBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Asio\GameDefine.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Asio\IAsioTools.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Asio\IModelBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Asio\ServerConnection.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\IP\IP17MON.h">
+      <Filter>src\Tools\IP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MySql\MySqlBase.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MySql\MySqlConnection.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MySql\MySqlPool.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MySql\SQLDefine.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MyIni\MyIniBase.h">
+      <Filter>src\Tools\MyIni</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Asio\ISocketBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Libcurl\MyHttpTools.h">
+      <Filter>src\Tools\Libcurl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\TimerDeal\TimeOut.h">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Sqlite3\MySqlite3.h">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Sqlite3\src\sqlite3.h">
+      <Filter>src\Tools\Sqlite3\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Sqlite3\SqliteBase.h">
+      <Filter>src\Tools\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MyStream\MyStreamBase.h">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\MyStream\MyStreamBase.hpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Md5\MyMd5.h">
+      <Filter>src\Tools\Md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Service\service.h">
+      <Filter>src\Tools\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\AES\AES.h">
+      <Filter>src\Tools\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\AES\MyAes.h">
+      <Filter>src\Tools\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\base64\base64.h">
+      <Filter>src\Tools\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public_linux\src\Tools\Leveldb\MyLeveldb.h">
+      <Filter>src\Tools\Leveldb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Public_linux\src\Tools\Json\src\json_valueiterator.inl">
+      <Filter>src\Tools\Json\src</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

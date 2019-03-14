@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\asio\base\ServerApp.cpp">
+      <Filter>src\asio\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asio\base\ServerMain.cpp">
+      <Filter>src\asio\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\ConnectionPool.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\MyIni.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asio\MyAsioTools.cpp">
+      <Filter>src\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\asio\MyClient.cpp">
+      <Filter>src\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e2228799-4805-4570-b6e2-c791df4d23f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{50de8a23-7b43-46a7-8dca-f5a44f153a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\asio">
+      <UniqueIdentifier>{4b890e8b-261f-4889-ac6c-536f42017f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\asio\base">
+      <UniqueIdentifier>{884820f4-5420-4699-aab5-d224a36e5567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\flatbuffers">
+      <UniqueIdentifier>{89ac3316-d72a-4312-a80e-a7a1c971be5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\flatbuffers\flatbuffers">
+      <UniqueIdentifier>{a457434e-acb6-499d-a30d-7ac3e7043e1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\asio\base\ServerApp.h">
+      <Filter>src\asio\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asio\base\ServerMain.h">
+      <Filter>src\asio\base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\ConnectionPool.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\MyIni.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asio\MyAsioTools.h">
+      <Filter>src\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asio\MyClient.h">
+      <Filter>src\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\flatbuffers\test_generated.h">
+      <Filter>src\data\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\flatbuffers\flatbuffers\flatbuffers.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.json" />
+  </ItemGroup>
+</Project>

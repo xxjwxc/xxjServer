@@ -1,0 +1,17 @@
+{
+    "serverIP":"0.0.0.0",
+    "serverPort":5123,
+    "isLog":true,
+    "title":"class_db",
+    "max_min":[100,1],
+    "db_timeOut":7200,
+    "timeOut":1,
+    "exestart":"0startup.cmd",
+     "dbInfo" : {
+      "host" : "127.0.0.1",
+      "name" : "xina_poetry_reptil",
+      "password" : "123456",
+      "user" : "root",
+      "port":"3306"
+   }
+}

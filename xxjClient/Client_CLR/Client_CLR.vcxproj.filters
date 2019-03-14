@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{83ccf1fe-edb0-42ae-a14c-e17cd3c8ac8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Asio">
+      <UniqueIdentifier>{009a7f94-9fa5-4502-8a33-d2ce58b359c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Data">
+      <UniqueIdentifier>{5b8e3bbe-66b0-478e-9115-ef0b0e671898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools">
+      <UniqueIdentifier>{68ebef23-45c8-4520-b74f-d159935fa148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Asio">
+      <UniqueIdentifier>{2628a4e2-1fd9-473a-abdb-9f0a1a14ff4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\IP">
+      <UniqueIdentifier>{04c15035-31f4-47e9-aa53-f463080bc233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json">
+      <UniqueIdentifier>{c6d8b029-e330-42f7-b7be-ea9f63f0d1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json\src">
+      <UniqueIdentifier>{f26173aa-042b-4e8a-99d9-510c561e712d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyIni">
+      <UniqueIdentifier>{c7e56fba-1938-448f-a5ca-e8190554832f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Rand">
+      <UniqueIdentifier>{5eb622f1-c788-4ec7-9f08-4cd2e4466597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\SingnalTrivial">
+      <UniqueIdentifier>{18fd24d2-47ba-4b29-9509-849824daa708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\TimerDeal">
+      <UniqueIdentifier>{f028ec1c-a243-40e7-a93d-8b77367ebaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyStream">
+      <UniqueIdentifier>{3f2ef8ee-7f41-4874-801d-5027db2c218f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyBase">
+      <UniqueIdentifier>{4769f3e2-fa0c-476d-8b77-fcfb5cf1c38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyQueue">
+      <UniqueIdentifier>{e38bebf8-71cb-4460-b108-50526b7ac59f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\ClientTypeDefine.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Asio\MyClient.h">
+      <Filter>src\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySingleton.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Asio\IAsioTools.h">
+      <Filter>src\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyTools.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.h">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.hpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyBase\MyMap.h">
+      <Filter>src\Tools\MyBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyBase\pair.h">
+      <Filter>src\Tools\MyBase</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyQueue\MyQueue.h">
+      <Filter>src\Tools\MyQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\GameDefine.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\MyClientDataModel.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\MyClientCallBack.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientCore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Asio\MyClient.cpp">
+      <Filter>src\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Asio\IAsioTools.cpp">
+      <Filter>src\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyStream\MyStreamBase.cpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\MyClientDataModel.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{90644e19-b801-4332-9255-89bfe5c48a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Asio">
+      <UniqueIdentifier>{b9f5f44a-c7f2-4798-b5b5-1432d290d28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{347f12b6-af84-46cb-b46f-3080bd4fdb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\flatbuffers">
+      <UniqueIdentifier>{df2dda4e-cb1d-498b-a2b8-28f3b6aeac8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\flatbuffers\flatbuffers">
+      <UniqueIdentifier>{5f5fb089-57db-4b16-b090-806176c97fb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Client_linux\src\data\MyIni.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client_linux\src\Asio\MyClient.cpp">
+      <Filter>src\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client_linux\src\Asio\MyAsioTools.cpp">
+      <Filter>src\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client_linux\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Client_linux\src\data\MyClientDataModel.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Client_linux\src\data\MyIni.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\Asio\MyClient.h">
+      <Filter>src\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\Asio\MyAsioTools.h">
+      <Filter>src\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\MyClientDataModel.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\test_generated.h">
+      <Filter>src\data\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\code_generators.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\flatbuffers.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\flatc.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\flexbuffers.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\grpc.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\hash.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\idl.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\reflection.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\reflection_generated.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Client_linux\src\data\flatbuffers\flatbuffers\util.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\Asio\MyAsioTools.cpp">
+      <Filter>src\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Asio\MyClient.cpp">
+      <Filter>src\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\MyIni.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data\MyClientDataModel.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ce896477-b534-4378-bf48-5bec1123030e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Asio">
+      <UniqueIdentifier>{713ec8b5-899c-49e3-8a3a-0551071a65db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{e55e5ecd-0eee-4000-a5e2-424918bd576b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\flatbuffers">
+      <UniqueIdentifier>{832a2140-7a14-46c9-9775-b3276e6015bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data\flatbuffers\flatbuffers">
+      <UniqueIdentifier>{77c05cea-06f9-44e6-be5c-3774c983801b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Asio\MyAsioTools.h">
+      <Filter>src\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Asio\MyClient.h">
+      <Filter>src\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\MyIni.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\MyClientDataModel.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\flatbuffers\test_generated.h">
+      <Filter>src\data\flatbuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data\flatbuffers\flatbuffers\flatbuffers.h">
+      <Filter>src\data\flatbuffers\flatbuffers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

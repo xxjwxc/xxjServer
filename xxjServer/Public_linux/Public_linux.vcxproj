@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8924237b-d378-462e-97eb-32a70605d092}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>Public_linux</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{FC1A4D80-50E9-41DA-9192-61C0DBAA00D2}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <RemoteRootDir>~/projects/Public_linux/src/Tools</RemoteRootDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <RemoteRootDir>~/projects/Public_linux/src/Tools</RemoteRootDir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <RemoteProjectDir>$(RemoteRootDir)/</RemoteProjectDir>
+    <LocalRemoteCopySources>true</LocalRemoteCopySources>
+    <OutDir>$(ProjectDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)..\..\obj\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)..\..\obj\$(Platform)\$(Configuration)\</IntDir>
+    <RemoteProjectDir>$(RemoteRootDir)/</RemoteProjectDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Tools\Asio\ClientSession.h" />
+    <ClInclude Include="src\Tools\Asio\DefineBase.h" />
+    <ClInclude Include="src\Tools\Asio\GameDefine.h" />
+    <ClInclude Include="src\Tools\Asio\IAsioTools.h" />
+    <ClInclude Include="src\Tools\Asio\IModelBase.h" />
+    <ClInclude Include="src\Tools\Asio\ISocketBase.h" />
+    <ClInclude Include="src\Tools\Asio\ServerConnection.h" />
+    <ClInclude Include="src\Tools\ConsoleHandler.h" />
+    <ClInclude Include="src\Tools\DefineBase.h" />
+    <ClInclude Include="src\Tools\Gumbo\MyGumbo.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\attribute.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\char_ref.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\error.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\gumbo.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\insertion_mode.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\parser.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\strings.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\string_buffer.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\string_piece.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_enum.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_gperf.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_sizes.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tag_strings.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer_states.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\token_type.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\utf8.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\util.h" />
+    <ClInclude Include="src\Tools\Gumbo\src\vector.h" />
+    <ClInclude Include="src\Tools\IP\IP17MON.h" />
+    <ClInclude Include="src\Tools\Json\include\autolink.h" />
+    <ClInclude Include="src\Tools\Json\include\config.h" />
+    <ClInclude Include="src\Tools\Json\include\features.h" />
+    <ClInclude Include="src\Tools\Json\include\forwards.h" />
+    <ClInclude Include="src\Tools\Json\include\json.h" />
+    <ClInclude Include="src\Tools\Json\include\reader.h" />
+    <ClInclude Include="src\Tools\Json\include\value.h" />
+    <ClInclude Include="src\Tools\Json\include\writer.h" />
+    <ClInclude Include="src\Tools\Json\MyJson.h" />
+    <ClInclude Include="src\Tools\Json\src\json_batchallocator.h" />
+    <ClInclude Include="src\Tools\Md5\MyMd5.h" />
+    <ClInclude Include="src\Tools\MyDump.h" />
+    <ClInclude Include="src\Tools\MyIni\MyIniBase.h" />
+    <ClInclude Include="src\Tools\MySingleton.h" />
+    <ClInclude Include="src\Tools\MySql\MySqlBase.h" />
+    <ClInclude Include="src\Tools\MySql\MySqlConnection.h" />
+    <ClInclude Include="src\Tools\MySql\MySqlPool.h" />
+    <ClInclude Include="src\Tools\MySql\SQLDefine.h" />
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.h" />
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.hpp" />
+    <ClInclude Include="src\Tools\MyTimes.h" />
+    <ClInclude Include="src\Tools\MyTools.h" />
+    <ClInclude Include="src\Tools\OnLogDeal.h" />
+    <ClInclude Include="src\Tools\PointBase.h" />
+    <ClInclude Include="src\Tools\Queue\MyQueue.h" />
+    <ClInclude Include="src\Tools\Queue\MyQueue.hpp" />
+    <ClInclude Include="src\Tools\Rand\MyRand.h" />
+    <ClInclude Include="src\Tools\Restful\served\methods.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\methods_handler.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\multiplexer.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\mux\empty_matcher.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\mux\matchers.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\mux\regex_matcher.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\mux\segment_matcher.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\mux\static_matcher.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\mux\variable_matcher.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\net\connection.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\net\connection_manager.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\net\server.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\parameters.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\plugins.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\request.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\request_error.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\request_parser.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\request_parser_impl.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\response.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\served.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\status.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\uri.hpp" />
+    <ClInclude Include="src\Tools\Restful\served\version.hpp" />
+    <ClInclude Include="src\Tools\SingnalTrivial\SignalSlotTrivial.h" />
+    <ClInclude Include="src\Tools\TimerDeal\TimeOut.h" />
+    <ClInclude Include="src\Tools\TimerDeal\TimerDeal.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Tools\Asio\ClientSession.cpp" />
+    <ClCompile Include="src\Tools\Asio\IAsioTools.cpp" />
+    <ClCompile Include="src\Tools\Asio\ServerConnection.cpp" />
+    <ClCompile Include="src\Tools\Gumbo\MyGumbo.cpp" />
+    <ClCompile Include="src\Tools\Gumbo\src\attribute.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\char_ref.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\error.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\parser.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\string_buffer.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\string_piece.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\tag.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\tokenizer.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\utf8.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\util.c" />
+    <ClCompile Include="src\Tools\Gumbo\src\vector.c" />
+    <ClCompile Include="src\Tools\IP\IP17MON.cpp" />
+    <ClCompile Include="src\Tools\Json\src\json_reader.cpp" />
+    <ClCompile Include="src\Tools\Json\src\json_value.cpp" />
+    <ClCompile Include="src\Tools\Json\src\json_writer.cpp" />
+    <ClCompile Include="src\Tools\Md5\MyMd5.cpp" />
+    <ClCompile Include="src\Tools\MyIni\MyIniBase.cpp" />
+    <ClCompile Include="src\Tools\MySql\MySqlBase.cpp" />
+    <ClCompile Include="src\Tools\MySql\MySqlConnection.cpp" />
+    <ClCompile Include="src\Tools\MySql\MySqlPool.cpp" />
+    <ClCompile Include="src\Tools\MyStream\MyStreamBase.cpp" />
+    <ClCompile Include="src\Tools\MyTimes.cpp" />
+    <ClCompile Include="src\Tools\MyTools.cpp" />
+    <ClCompile Include="src\Tools\OnLogDeal.cpp" />
+    <ClCompile Include="src\Tools\Rand\MyRand.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\methods_handler.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\multiplexer.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\mux\regex_matcher.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\mux\static_matcher.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\mux\variable_matcher.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\net\connection.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\net\connection_manager.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\net\server.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\parameters.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\plugins\access_log.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\request.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\request_parser.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\request_parser_impl.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\response.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\status.cpp" />
+    <ClCompile Include="src\Tools\Restful\served\uri.cpp" />
+    <ClCompile Include="src\Tools\TimerDeal\TimeOut.cpp" />
+    <ClCompile Include="src\Tools\TimerDeal\TimerDeal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Tools\Gumbo\src\char_ref.rl" />
+    <None Include="src\Tools\Gumbo\src\tag.in" />
+    <None Include="src\Tools\Json\src\json_valueiterator.inl" />
+    <None Include="src\Tools\Restful\served\request_parser.rl" />
+  </ItemGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

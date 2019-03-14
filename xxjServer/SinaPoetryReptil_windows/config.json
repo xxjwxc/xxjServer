@@ -1,0 +1,11 @@
+{
+    "URL":""
+    "timeOut":600,
+     "dbInfo" : {
+      "host" : "182.254.133.58",
+      "name" : "AmazingteamTemplate",
+      "password" : "iceworkadmin1210",
+      "user" : "AmazingteamTemplate",
+      "port":""
+   }
+}

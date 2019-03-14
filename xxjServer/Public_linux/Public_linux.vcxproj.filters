@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{35cebb1e-2942-4092-bd0c-1a6da3ce1a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools">
+      <UniqueIdentifier>{a499f1d7-75fb-481b-b5af-d9c0019f319b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json">
+      <UniqueIdentifier>{9e58ddf6-1b62-4514-86a0-b7943108fabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json\include">
+      <UniqueIdentifier>{bc1f7ac2-03f0-4209-afa2-259c4cd94c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Json\src">
+      <UniqueIdentifier>{f100dd03-ae28-498d-b384-406d481943be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Queue">
+      <UniqueIdentifier>{6e2740f0-fa9e-4b0a-8e7d-779086dc4001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Rand">
+      <UniqueIdentifier>{40929c88-d634-43c0-a9cc-553905c552d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\SingnalTrivial">
+      <UniqueIdentifier>{dfdaa1b2-9ece-426f-82a7-c98c5600ab96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\TimerDeal">
+      <UniqueIdentifier>{d0cc36a3-5e43-4004-8809-db8da6f9a342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Asio">
+      <UniqueIdentifier>{9c8a9062-2ba0-4d02-8660-ace09ed50738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\IP">
+      <UniqueIdentifier>{661c707f-bd44-4fa4-a9db-d7b8236199bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Libcurl">
+      <UniqueIdentifier>{6077884c-072c-4a9d-8875-2a5681348ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Libcurl\curl">
+      <UniqueIdentifier>{4170cd51-56c6-4323-af4e-ac2fc0ab23dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MySql">
+      <UniqueIdentifier>{9b149362-8240-4462-9aa4-465b6ec30368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyIni">
+      <UniqueIdentifier>{9f0c7308-525a-4686-a08e-20b739cf2568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Gumbo">
+      <UniqueIdentifier>{4b22f951-65e1-471f-9945-10a776d568ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Gumbo\src">
+      <UniqueIdentifier>{75f7d7eb-056c-4367-a442-ad3c213db1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\MyStream">
+      <UniqueIdentifier>{86f49f53-0bb0-4a0b-a463-d6a9fce92f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Md5">
+      <UniqueIdentifier>{51022a86-66ab-4689-bbab-db1ae3e82411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful">
+      <UniqueIdentifier>{dfa291c0-af8e-497d-81ef-188398654b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served">
+      <UniqueIdentifier>{eefffa40-a44b-40a8-aacc-563d6e5a7672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served\mux">
+      <UniqueIdentifier>{fbf26dbb-8974-439c-b638-90668bea803c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served\net">
+      <UniqueIdentifier>{e1d00bc9-912c-4d53-b14c-23d7353ec567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools\Restful\served\plugins">
+      <UniqueIdentifier>{e2a5b121-bf05-4858-8554-05560ed3d07e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Tools\ConsoleHandler.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\DefineBase.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyDump.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySingleton.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyTimes.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyTools.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\OnLogDeal.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\PointBase.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\MyJson.h">
+      <Filter>src\Tools\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\autolink.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\config.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\features.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\forwards.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\json.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\reader.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\value.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\include\writer.h">
+      <Filter>src\Tools\Json\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Queue\MyQueue.h">
+      <Filter>src\Tools\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Queue\MyQueue.hpp">
+      <Filter>src\Tools\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Rand\MyRand.h">
+      <Filter>src\Tools\Rand</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\SingnalTrivial\SignalSlotTrivial.h">
+      <Filter>src\Tools\SingnalTrivial</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\TimerDeal\TimerDeal.h">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Json\src\json_batchallocator.h">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\ClientSession.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\DefineBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\GameDefine.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\IAsioTools.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\IModelBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\ServerConnection.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\IP\IP17MON.h">
+      <Filter>src\Tools\IP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\MySqlBase.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\MySqlConnection.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\MySqlPool.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MySql\SQLDefine.h">
+      <Filter>src\Tools\MySql</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyIni\MyIniBase.h">
+      <Filter>src\Tools\MyIni</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Asio\ISocketBase.h">
+      <Filter>src\Tools\Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\MyGumbo.h">
+      <Filter>src\Tools\Gumbo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\attribute.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\char_ref.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\error.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\gumbo.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\insertion_mode.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\parser.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\string_buffer.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\string_piece.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\strings.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_enum.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_gperf.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_sizes.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tag_strings.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\token_type.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\tokenizer_states.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\utf8.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\util.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Gumbo\src\vector.h">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\TimerDeal\TimeOut.h">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.h">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\MyStream\MyStreamBase.hpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Md5\MyMd5.h">
+      <Filter>src\Tools\Md5</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\methods.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\methods_handler.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\multiplexer.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\parameters.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\plugins.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\request.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\request_error.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\request_parser.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\request_parser_impl.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\response.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\served.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\status.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\uri.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\version.hpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\mux\empty_matcher.hpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\mux\matchers.hpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\mux\regex_matcher.hpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\mux\segment_matcher.hpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\mux\static_matcher.hpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\mux\variable_matcher.hpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\net\connection.hpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\net\connection_manager.hpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tools\Restful\served\net\server.hpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Tools\MyTimes.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyTools.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\OnLogDeal.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Json\src\json_reader.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Json\src\json_value.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Json\src\json_writer.cpp">
+      <Filter>src\Tools\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Rand\MyRand.cpp">
+      <Filter>src\Tools\Rand</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\TimerDeal\TimerDeal.cpp">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Asio\ClientSession.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Asio\IAsioTools.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Asio\ServerConnection.cpp">
+      <Filter>src\Tools\Asio</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\IP\IP17MON.cpp">
+      <Filter>src\Tools\IP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MySql\MySqlBase.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MySql\MySqlConnection.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MySql\MySqlPool.cpp">
+      <Filter>src\Tools\MySql</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyIni\MyIniBase.cpp">
+      <Filter>src\Tools\MyIni</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\MyGumbo.cpp">
+      <Filter>src\Tools\Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\attribute.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\char_ref.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\error.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\parser.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\string_buffer.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\string_piece.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\tag.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\tokenizer.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\utf8.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\util.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Gumbo\src\vector.c">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\TimerDeal\TimeOut.cpp">
+      <Filter>src\Tools\TimerDeal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\MyStream\MyStreamBase.cpp">
+      <Filter>src\Tools\MyStream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Md5\MyMd5.cpp">
+      <Filter>src\Tools\Md5</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\methods_handler.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\multiplexer.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\parameters.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\request.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\request_parser.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\request_parser_impl.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\response.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\status.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\uri.cpp">
+      <Filter>src\Tools\Restful\served</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\mux\regex_matcher.cpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\mux\static_matcher.cpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\mux\variable_matcher.cpp">
+      <Filter>src\Tools\Restful\served\mux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\net\connection.cpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\net\connection_manager.cpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\net\server.cpp">
+      <Filter>src\Tools\Restful\served\net</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tools\Restful\served\plugins\access_log.cpp">
+      <Filter>src\Tools\Restful\served\plugins</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Tools\Json\src\json_valueiterator.inl">
+      <Filter>src\Tools\Json\src</Filter>
+    </None>
+    <None Include="src\Tools\Gumbo\src\char_ref.rl">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </None>
+    <None Include="src\Tools\Gumbo\src\tag.in">
+      <Filter>src\Tools\Gumbo\src</Filter>
+    </None>
+    <None Include="src\Tools\Restful\served\request_parser.rl">
+      <Filter>src\Tools\Restful\served</Filter>
+    </None>
+  </ItemGroup>
+</Project>
