@@ -468,3 +468,40 @@ std::string MyTools::BinToHex(const std::string &strBin, bool bIsUpper /*= false
 
 	return strHex;
 }
+
+std::string MyTools::GetBigCamel(const std::string & name)
+{
+	if (name == "") {
+		return "";
+	}
+
+	static std::vector<std::string> v = { "ACL", "API", "ASCII", "CPU", "CSS", "DNS", "EOF", "GUID", "HTML", "HTTP", "HTTPS", "ID", "IP", "JSON", "LHS", "QPS", "RAM", "RHS", "RPC", "SLA", "SMTP", "SQL", "SSH", "TCP", "TLS", "TTL", "UDP", "UI", "UID", "UUID", "URI", "URL", "UTF8", "VM", "XML", "XMPP", "XSRF", "XSS" };
+	std::map<std::string, std::string> mp;
+	for (const auto & k : v) {
+		std::string tmp = boost::to_lower_copy(k);
+		std::string first(tmp.begin(), tmp.begin() + 1);
+		boost::to_upper(first);
+		first.append(tmp.begin() + 1, tmp.end());
+
+		mp[first] = k;
+	}
+
+	std::vector<std::string> temp = SplitString(name, "_");
+	std::string s;
+	for (auto & v : temp) {
+		std::string vv = v;
+		if (vv.length() > 0) {
+			if ((vv[0] >= 'a' && vv[0] <= 'z')) { //首字母大写
+				vv[0] -= 32;
+			}
+			s += vv;
+		}
+	}
+
+	if (mp[s].length() > 0) {
+		s = mp[s];
+	}
+
+	return s;
+
+}

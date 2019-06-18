@@ -97,6 +97,8 @@ public:
   static std::string HexToBin(const std::string &strHex);//16进制转二进制字符串
 
   static std::string BinToHex(const std::string &strBin, bool bIsUpper = false);//二进制字符串转16进制字符串
+
+  static std::string GetBigCamel(const std::string & str);//大驼峰命名规则
 };
 
 //内存检测 监视
